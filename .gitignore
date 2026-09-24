@@ -1,0 +1,38 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+
+# Configs locais gerados em runtime (podem conter caminhos reais da máquina)
+config_drive.json
+config_rota_indicacoes.json
+config.json
+
+# Documentos reais (apenas os fictícios em demo/ vão para o repo)
+documentos_reais/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build (PyInstaller)
+build/
+dist/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
