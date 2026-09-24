@@ -1,15 +1,15 @@
-# 📧 Gerador de E-mail
+# Gerador de E-mail
 
 Aplicação desktop desenvolvida em **Python + PyQt5** para facilitar a geração de e-mails e a localização dos documentos relacionados a cada processo.
 
 O projeto surgiu a partir de uma aplicação que já existia e foi aprimorado para deixar o fluxo mais simples: separar assunto e corpo do e-mail, facilitar a cópia das informações e localizar automaticamente os documentos necessários.
 
-> 🔒 Esta é uma versão pública do projeto.  
+>  Esta é uma versão pública do projeto.  
 > Dados internos, credenciais, documentos reais e informações da empresa foram substituídos por dados fictícios.
 
 ---
 
-## 💡 Sobre o projeto
+##  Sobre o projeto
 
 Durante o processo de indicação de condutor, algumas etapas eram repetitivas, como consultar as informações do processo, montar o e-mail e procurar os documentos correspondentes.
 
@@ -27,7 +27,7 @@ Para esta versão pública, o card `0001` foi criado especialmente para demonstr
 
 ---
 
-## 🖥️ Demonstração
+##  Demonstração
 
 ### 1. Tela inicial
 
@@ -55,7 +55,7 @@ Assim, as principais informações necessárias para o envio ficam reunidas em u
 
 ---
 
-## ⚙️ Como funciona
+##  Como funciona
 
 O fluxo da aplicação é simples:
 
@@ -67,7 +67,7 @@ Na demonstração pública, o card `0001` utiliza dados locais fictícios e não
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - **Python**
 - **PyQt5** — interface gráfica
@@ -77,45 +77,8 @@ Na demonstração pública, o card `0001` utiliza dados locais fictícios e não
 
 ---
 
-## 📂 Estrutura do projeto
 
-```text
-gerador-emails/
-│
-├── main.py
-├── main.spec
-├── requirements.txt
-├── .env.example
-│
-├── core/
-│   ├── config.py
-│   ├── config_drive.py
-│   └── dados_demo.py
-│
-├── services/
-│   ├── jira_email_services.py
-│   ├── jira_service.py
-│   ├── email_service.py
-│   └── drive_service.py
-│
-├── interface/
-│   └── janela_pyqt.py
-│
-├── demo/
-│   └── documentos/
-│       └── 0001/
-│
-└── docs/
-    └── images/
-        ├── tela-inicial.png
-        ├── configurar-rota.png
-        ├── rota-configurada.png
-        └── resultado-busca.png
-```
-
----
-
-## 🚀 Como executar
+##  Como executar
 
 Clone o repositório:
 
@@ -150,7 +113,7 @@ python main.py
 
 ---
 
-## 🧪 Testando a versão de demonstração
+##  Testando a versão de demonstração
 
 Para testar sem precisar de acesso ao Jira:
 
@@ -164,7 +127,7 @@ O card `0001` utiliza dados fictícios preparados exclusivamente para demonstra�
 
 ---
 
-## 🔗 Integração com Jira
+##  Integração com Jira
 
 Para utilizar a integração com um ambiente próprio do Jira, copie o arquivo `.env.example` para `.env` e configure suas credenciais:
 
@@ -180,7 +143,7 @@ O arquivo `.env` não deve ser enviado para o GitHub e já está incluído no `.
 
 ---
 
-## 🔐 Segurança
+##  Segurança
 
 Esta versão foi preparada para publicação e não contém:
 
@@ -194,7 +157,7 @@ Os dados disponíveis no modo de demonstração são fictícios.
 
 ---
 
-## 📌 Melhorias realizadas
+##  Melhorias realizadas
 
 Entre as melhorias feitas no projeto estão:
 
@@ -207,7 +170,7 @@ Entre as melhorias feitas no projeto estão:
 
 ---
 
-## 👩‍💻 Autora
+##  Autora
 
 **Gabriela Perez de Souza**
 
